@@ -64,7 +64,7 @@
   }
 
   .campo{
-    margin: 40px;
+    margin: 30px;
   }
 
   .create{
@@ -86,4 +86,14 @@
     color: white;
     border: none;
     border-radius: 15px;
+  }
+
+  .inputOK{
+    border: 5px solid;
+    border-color:mediumspringgreen;
+  }
+
+  .inputKO{
+    border: 5px solid;
+    border-color: red;
   }
