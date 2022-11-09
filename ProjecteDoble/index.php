@@ -13,15 +13,15 @@ get_head();
     <form action="e1.php" method="post">
       <div class="campo">
         <p>Nombre</p>
-        <input class="input" required type="text" name="user" placeholder="Introduce el usuario"/>
+        <input required type="text" name="user" placeholder="Introduce el usuario"/>
       </div>
       <div class="campo">
         <p>Email</p>
-        <input class="input" required type="text" name="email" placeholder="Introduce el email"/>
+        <input required type="text" name="email" placeholder="Introduce el email"/>
       </div>
       <div class="campo">
         <p>Contraseña</p>
-        <input class="input" required type="text" name="pwd" placeholder="Introduce la contraseña"/>
+        <input required type="text" name="pwd" placeholder="Introduce la contraseña"/>
       </div>
     </form>
       <button class="buttonblack">Iniciar Sesión</button>
