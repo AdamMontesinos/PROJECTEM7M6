@@ -1,0 +1,89 @@
+@font-face {
+    font-family: tiron;
+    src: url("src/Fjalla_One/FjallaOne-Regular.ttf");
+  }
+
+  h1{
+    
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  h2{
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .registerContainer{
+    display:flex;
+  }
+
+  .registerContainer img{
+    height: 100vh;
+    width: 45%;
+    object-fit: cover;
+    }
+
+  .registerForm{
+    width: 55%;
+    height: 100vh;
+    background: #00B607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p{
+    font-family: tiron;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .input{
+    width: 365px;
+    height: 60px;
+    padding:20px;
+   
+    border-radius: 15px;
+    border: none;
+  }
+
+  .campo{
+    margin: 40px;
+  }
+
+  .create{
+    font-family: tiron;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .buttonblack{
+    width: 365px;
+    height: 58px;
+    margin: 20px;
+    background: #000000;
+    font-family: tiron;
+    color: white;
+    border: none;
+    border-radius: 15px;
+  }
